@@ -1,0 +1,6 @@
+
+A = bintree:create({5,first}).
+B = bintree:insert(A,{3,leftRight}).
+C = bintree:insert(B,{7,rightLeft}).
+D = bintree:insert(C,{1,leftLeft}).
+E = bintree:insert(D,{10,rightRight}).
